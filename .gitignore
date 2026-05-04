@@ -1,20 +1,14 @@
-erraform/.terraform/
+terraform/.terraform/
 terraform/*.tfstate
 terraform/*.tfstate.backup
 terraform/.terraform.lock.hcl
 terraform/*.pem
-
-# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-
-# Model files
+*.ipynb_checkpoints/
 *.safetensors
 *.bin
 *.gguf
 *.zip
-
-# OS
 .DS_Store
 Thumbs.db
